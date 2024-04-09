@@ -35498,6 +35498,11 @@ a {
   transition: all 0.2s ease-in-out;
   position: relative;
 }
+.pricing-btn {
+  color: #fff;
+  background-color: #ffda6a;
+  border-color: #ffda6a;
+}
 .pricing-card:hover, .pricing-card.active {
   border-color: #6a4dff;
 }
