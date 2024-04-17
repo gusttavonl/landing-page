@@ -297,4 +297,15 @@ Last Update: 9 May 2023
 			});
 		}
 	}
+
+	const totalStudents = 100;
+
+	let totalStudendsNow = 93;
+
+	const totalPercent = (totalStudendsNow / totalStudents) * 100;
+
+	const roundPercent = Math.round(totalPercent);
+
+	document.getElementById('percent').textContent = roundPercent + '%';
+
 })();
